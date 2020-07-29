@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en>
+	<head>
+		<meta charset="utf-8">
+		<title>Yilin Huang's Homepage</title>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<script type="text/javascript" src="javascripts/Feedback.js"></script>
+		<script type="text/javascript" src="javascripts/Game.js"></script>
+	</head>
+	
+	<body>
+		<header>
+		<h1>Yilin Huang's Homepage</h1>
+		<h2><q>I have never felt lonely, romantically, I am completely free!</q></h2>
+		</header>
+		
+		<div style="text-align: center">
+			<img src=" img/P1.jpg" type="image/jpeg" width="408" height="225" title="profile image" alt="image1">
+			<br />
+			<nav>
+				<a href="#My Hometown">My Hometown</a>
+				<a href="#Xinjiang Duku Highway">Xinjiang Duku Highway</a>
+				<a href="#Chengdu-Lhasa Highway">Chengdu-Lhasa Highway</a>
+				<a href="#Horseshoe Bend">Horseshoe Bend</a>
+			</nav>
+		</div>
+		
+		<br />
+		
+		<div style="text-align: center">
+			<table style="margin: auto">
+				<caption>My Weekly Schedule</caption>
+				<thead>
+					<tr>
+						<th> </th>
+						<th>Monday</th>
+						<th>Tuesday</th>
+						<th>Wednesday</th>
+						<th>Thursday</th>
+						<th>Friday</th>
+						<th>Saturday</th>
+						<th>Sunday</th>
+					</tr>
+				<thead>
+				<tbody>
+					<tr><th>9:00-11:00</th><td>ECE375</td><td>ECE375</td><td>CS391</td><td>ECE375Lab</td><td>HWs</td><td>CS350</td><td>CS350</td></tr>
+					<tr><th>11:00-14:00</th><td>Break</td><td>Break</td><td>Break</td><td>Break</td><td>Break</td><td>Break</td><td>Break</td></tr>
+					<tr><th>14:00-18:00</th><td>ECE375</td><td>ECE375 HWs</td><td>CS391</td><td>ECE375Lab</td><td>HWs</td><td>CS350</td><td>CS350</td></tr>
+					<tr><th>20:00-23:00</th><td>CS350 Meeting</td><td>ECE375 HWs</td><td>CS391</td><td>ECE375Lab</td><td>HWs</td><td>CS350</td><td>CS350</td></tr>
+				</tbody>
+			</table>
+		</div>
+		
+		<br />
+		
+		<div style="text-align: center">
+		<h2 style="font-family: Blippo, fantasy">Shape Transformation Game</h2>
+		<input type="button" class="button" id="game-play-show" value="Shape Transformation Game" onClick="showGame();">
+		</div>
+		<div style="text-align: center">
+		<canvas id="game-play" onclick="captureClick(event);"></canvas>
+		<div id="game-controlls"></div>
+		</div>
+		<br />
+		
+		<div class="table">
+			<div class="caption">
+				Travel Photos
+			</div>
+			<div class="row">
+				<span><img src=" img/P2(1).jpg" type="image/jpeg" width="204" height="125" title="My Hometown 1" alt="My Hometown 1"></span>
+				<span><img src=" img/P2(2).jpg" type="image/jpeg" width="204" height="125" title="My Hometown 2" alt="My Hometown 2"></span>
+				<span><img src=" img/P3(1).jpg" type="image/jpeg" width="204" height="125" title="Xinjiang Duku Highway 1" alt="Duku 1"></span>
+				<span><img src=" img/P3(2).jpg" type="image/jpeg" width="204" height="125" title="Xinjiang Duku Highway 2" alt="Duku 2"></span>
+				<span><img src=" img/N1.jpg" type="image/jpeg" width="204" height="125" title="Chengdu-Lhasa Highway" alt="Chengdu-Lhasa"></span>
+				<span><img src=" img/P4.jpg" type="image/jpeg" width="204" height="125" title="Horseshoe Bend" alt="Horseshoe Bend"></span>
+			</div>
+			<div class="row">
+				<span>My Hometown 1</span>
+				<span>My Hometown 2</span>
+				<span>Xinjiang Duku Highway 1</span>
+				<span>Xinjiang Duku Highway 2</span>
+				<span>Chengdu-Lhasa Highway</span>
+				<span>Horseshoe Bend</span>
+			</div>
+		</div>
+		<div style="text-align: center" style="margin: auto">
+		<h2 style="font-family: Apple Chancery, cursive">DaYu</h2>
+		<h3 style="font-family: Apple Chancery, cursive"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp by Zhou Shen</h3>
+		<audio src=" audio/DaYu.mp3" preload="auto" controls></audio>
+		
+		<h2 style="font-family: Apple Chancery, cursive">NE ZHA</h2>
+		<video src=" video/NEZHA.mp4" width="408" height="225" preload="metadata" controls ></video>
+		</div>
+		
+		<article>
+			<section>
+				<aside>
+					<h3>Welcome my friend!</h3>
+				</aside>
+		
+				<h2 id="My Hometown">My Hometown</h2>
+				<ul>
+				<li>My Hometown</li>
+				<img src=" img/P2(1).jpg" type="image/jpeg" width="204" height="125" title="My Hometown 1" alt="My Hometown 1">
+				<img src=" img/P2(2).jpg" type="image/jpeg" width="204" height="125" title="My Hometown 2" alt="My Hometown 2">
+				</ul>
+			</section>
+			
+			<section>
+				<h2 id="Xinjiang Duku Highway">Xinjiang Duku Highway</h2>
+				<ul>
+				<li>Xinjiang Duku Highway</li>
+				<img src=" img/P3(1).jpg" type="image/jpeg" width="204" height="125" title="Xinjiang Duku Highway 1" alt="Duku 1">
+				<img src=" img/P3(2).jpg" type="image/jpeg" width="204" height="125" title="Xinjiang Duku Highway 2" alt="Duku 2">
+				</ul>
+			</section>
+			
+			<section>
+				<h2 id="Chengdu-Lhasa Highway">Chengdu-Lhasa Highway</h2>
+				<ul>
+				<li>Chengdu-Lhasa Highway</li>
+				<img src=" img/N1.jpg" type="image/jpeg" width="204" height="125" title="Chengdu-Lhasa Highway" alt="Chengdu-Lhasa">
+				</ul>
+			</section>
+			
+			<section>
+				<h2 id="Horseshoe Bend">Horseshoe Bend</h2>
+				<ul>
+				<li>Horseshoe Bend</li>
+				<img src=" img/P4.jpg" type="image/jpeg" width="204" height="125" title="Horseshoe Bend" alt="Horseshoe Bend">
+				</ul>
+			</section>
+		</article>
+		
+		<h2>Feedback</h2>
+			<form id=“feedback” class="feedback" method="POST"">				
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" placeholder="Your name...(Last & First)" 
+						onfocusout="validateField(this.form.elements['name'], 'Name');">
+				
+				<label for="phone">Phone</label>
+				<input type="tel" id="phone" name="phone" placeholder="Your phone number..." pattern="^[0-9]{3}\\-[0-9]{3}\\-[0-9]{4}$" 
+						onfocusout="validateField(this.form.elements['phone']);">
+				
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" placeholder="Your email address..." 
+						onfocusout="validateField(this.form.elements['email']);">
+						
+				<label for="address">Address</label>
+				<input type="text" id="address" name="address" placeholder="Your address..." 
+						onfocusout="validateField(this.form.elements['address'], 'Address');">
+				
+				<label for="comments">Comments</label>
+				<textarea id="comments" name="comments" placeholder="Your comments..." style="height: 200px" 
+						onfocusout="validateField(this.form.elements['comments'], 'Comments');"></textarea>
+				
+				<input class="button" type="button" value="Send" name="Submit" onsubmit="sendEmail(this.event);>
+				<input class="button" type="reset" value="Reset" name="Reset">
+			</form>
+		
+		<footer>
+			Hope you have a good day!
+		</footer>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
